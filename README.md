@@ -1,6 +1,6 @@
 # Milestone-1 Overview
-Group 3 \n
-Group Member: 
+Group 3 
+<br>  Group Member: 
 | **Name** | **Matrics Number** |
 | :-----------: | :-----------: |
 | Kuken | MKE211 |
@@ -60,7 +60,7 @@ Group Member:
   }
   ```
   
-## 4.0 Referenced Tutorials 
+## 4.0 Referred Tutorials 
 ### 4.1 Tutorial Video:
 [50. Install STM32CubeIDE and LED blink program with Nucleo for Windows](https://www.youtube.com/watch?v=oAwZ0cjlmN8)
 
