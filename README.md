@@ -1,8 +1,8 @@
-# Milestone-1
-Group 3
+# Milestone-1 Overview
+Group 3 \n
 Group Member: 
 | **Name** | **Matrics Number** |
-| ----------- | ----------- |
+| :-----------: | :-----------: |
 | Kuken | MKE211 |
 | Low Q'Ying | MKE211 |
 | See Wan Hui | MKE211093 |
@@ -47,16 +47,18 @@ Group Member:
 1. Connect the microprocessor with a personal computer via USB Type-A to Mini-B cable.
 
 ### Source Code
- `while (1)`
-  `{`
-	 `HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);`
-	 `HAL_Delay(1000);`
-	 `HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);`
-	 `HAL_Delay(1000);`
-   `/* USER CODE END WHILE */`
+ ```
+ while (1)
+  {
+	 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);
+	 HAL_Delay(1000);
+	 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);
+	 HAL_Delay(1000);
+   /* USER CODE END WHILE */
 
-   `/* USER CODE BEGIN 3 */`
-  `}`
+   /* USER CODE BEGIN 3 */
+  }
+  ```
   
 ## 4.0 Referenced Tutorials 
 ### 4.1 Tutorial Video:
