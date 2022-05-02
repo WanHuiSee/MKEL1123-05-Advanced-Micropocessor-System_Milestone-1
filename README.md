@@ -1,11 +1,10 @@
 # Milestone-1
 Group 3
 Group Member: 
-| Syntax | Description |
 | ----------- | ----------- |
 | **Name** | **Matrics Number** |
-| Kuken |  |
-| Low Q'Ying | MKE |
+| Kuken | MKE211 |
+| Low Q'Ying | MKE211 |
 | See Wan Hui | MKE211093 |
 
 ## 1.0 Equipment
@@ -30,7 +29,6 @@ Group Member:
   - STM32CubeIDE
 
 ### 1.2 Photo of STM32F446 Nucleo-64 Microcontroller Board
-![alt text](STM32F446.jpeg)
 ![STM32F446](https://user-images.githubusercontent.com/104665552/166263426-0b241e42-8453-40ed-a001-4d175e213135.jpeg)
 
 
@@ -49,16 +47,16 @@ Group Member:
 1. Connect the microprocessor with a personal computer via USB Type-A to Mini-B cable.
 
 ### Source Code
- `while (1)
-  {
-	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);
-	  HAL_Delay(1000);
-	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);
-	  HAL_Delay(1000);
-    /* USER CODE END WHILE */
+ `while (1)`
+  `{`
+	 `HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);`
+	 `HAL_Delay(1000);`
+	 `HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);`
+	 `HAL_Delay(1000);`
+   `/* USER CODE END WHILE */`
 
-    /* USER CODE BEGIN 3 */
-  }`
+   `/* USER CODE BEGIN 3 */`
+  `}`
   
 ## 4.0 Referenced Tutorials 
 ### 4.1 Tutorial Video:
