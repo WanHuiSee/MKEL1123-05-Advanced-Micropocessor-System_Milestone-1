@@ -1,8 +1,8 @@
 # Milestone-1
 Group 3
 Group Member: 
-| ----------- | ----------- |
 | **Name** | **Matrics Number** |
+| ----------- | ----------- |
 | Kuken | MKE211 |
 | Low Q'Ying | MKE211 |
 | See Wan Hui | MKE211093 |
