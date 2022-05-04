@@ -44,9 +44,14 @@ Group 3
 - A digitally signed driver which allow successful USB interfaces between the device
 
 ## 3.0 Procedure
-1. Connect the microprocessor with a personal computer via USB Type-A to Mini-B cable.
+1. The microprocessor was connected with a personal computer via USB Type-A to Mini-B cable.
+2. The STM32CubeIDE and USB Driver (STSW-LINK009) softwares were downloaded and set up.
+3. The STM32CubeIDE software was run.
+4. Unique coding was applied in the STM32CubeIDE software to create a blinky.
+5. The GPIO Output Pin was configured within the CubeMX Tool.
+6. The HAL_GPIO_Write was used to change the pin state and the HAL_Delay() was used to cofigure the GPIO Output Pin.
 
-### Source Code
+### 3.1 Source Code
  ```
  while (1)
   {
@@ -63,8 +68,14 @@ Group 3
 ## 4.0 Referred Tutorials 
 ### 4.1 Tutorial Video:
 [50. Install STM32CubeIDE and LED blink program with Nucleo for Windows](https://www.youtube.com/watch?v=oAwZ0cjlmN8)
+[Getting Started with STM32 and Nucleo Part 1: Introduction to STM32CubeIDE and Blinky – Digi-Key](https://www.youtube.com/watch?v=hyZS2p1tW-g)
 
 ## 5.0 References
-https://www.st.com/en/evaluation-tools/nucleo-f446re.html
+[1]“NUCLEO-F446RE - STM32 Nucleo-64 development board with STM32F446RE MCU, supports Arduino and ST morpho connectivity - STMicroelectronics,” www.st.com. https://www.st.com/en/evaluation-tools/nucleo-f446re.html (accessed May 04, 2022).
+<br>
+
+[2]“STM32CubeIDE - Integrated Development Environment for STM32 - STMicroelectronics,” www.st.com. https://www.st.com/en/development-tools/stm32cubeide.html#:~:text=STM32CubeIDE%20is%20an%20all%2Din (accessed May 04, 2022).
 https://www.st.com/en/development-tools/stm32cubeide.html#:~:text=STM32CubeIDE%20is%20an%20all%2Din,for%20STM32%20microcontrollers%20and%20microprocessors.
-https://www.st.com/en/development-tools/stsw-link009.html
+<br>
+
+[3]“STSW-LINK009 - ST-LINK, ST-LINK/V2, ST-LINK/V2-1, STLINK-V3 USB driver signed for Windows7, Windows8, Windows10 - STMicroelectronics,” www.st.com. https://www.st.com/en/development-tools/stsw-link009.html
