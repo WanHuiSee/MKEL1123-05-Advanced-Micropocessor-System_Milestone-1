@@ -75,7 +75,6 @@ Group 3
 <br>
 
 [2]“STM32CubeIDE - Integrated Development Environment for STM32 - STMicroelectronics,” www.st.com. https://www.st.com/en/development-tools/stm32cubeide.html#:~:text=STM32CubeIDE%20is%20an%20all%2Din (accessed May 04, 2022).
-https://www.st.com/en/development-tools/stm32cubeide.html#:~:text=STM32CubeIDE%20is%20an%20all%2Din,for%20STM32%20microcontrollers%20and%20microprocessors.
 <br>
 
 [3]“STSW-LINK009 - ST-LINK, ST-LINK/V2, ST-LINK/V2-1, STLINK-V3 USB driver signed for Windows7, Windows8, Windows10 - STMicroelectronics,” www.st.com. https://www.st.com/en/development-tools/stsw-link009.html
