@@ -4,7 +4,7 @@ Group 3
 <br>  Group Member: 
 | **Name** | **Matrics Number** |
 | :-----------: | :-----------: |
-| Kuken | MKE211088 |
+| Kukenraj a\l K.Pugalenthy | MKE211088 |
 | Low Q'Ying | MKE211099 |
 | See Wan Hui | MKE211093 |
 ## 1.0 Objectives
