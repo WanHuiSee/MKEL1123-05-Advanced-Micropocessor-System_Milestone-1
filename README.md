@@ -1,6 +1,5 @@
 # MKEL1123-05 Advanced Microprocessor System
-# Milestone 1
-# Overview
+# Milestone 1: Overview
 Group 3 
 <br>  Group Member: 
 | **Name** | **Matrics Number** |
@@ -8,13 +7,17 @@ Group 3
 | Kuken | MKE211 |
 | Low Q'Ying | MKE211 |
 | See Wan Hui | MKE211093 |
+## 1.0 Objectives
+- To familiarize with basic STM32 firmware development.
+- To verify the operation of STM32 board.
+- To familiarize with Github for reporting milestones.
 
-## 1.0 Equipment
+## 2.0 Equipment
 - Microcontroller board with Cortex-M4 based processor, STM32F446 Nucleo-64 (STM32F446RET6 64 PINS)
 - Personal computer 
 - USB Type-A to Mini-B cable
 
-### 1.1 Features of STM32F446 Nucleo-64 Microcontroller Board
+### 2.1 Features of STM32F446 Nucleo-64 Microcontroller Board
 - ARM Cortex-M4 180 MHz
 - 512-KB Flash, 128-KB SRAM
 - Includes two extension connectors:
@@ -30,30 +33,33 @@ Group 3
   - MDK-ARM
   - STM32CubeIDE
 
-### 1.2 Photo of STM32F446 Nucleo-64 Microcontroller Board
+### 2.2 Photo of STM32F446 Nucleo-64 Microcontroller Board
 ![STM32F446](https://user-images.githubusercontent.com/104665552/166263426-0b241e42-8453-40ed-a001-4d175e213135.jpeg)
 
 
-## 2.0 Software
-### 2.1 STM32CubeIDE
+## 3.0 Software
+### 3.1 STM32CubeIDE
 - All-in-one multi-OS development tool for Windows, Linux, and macOS with 64-bit versions only.
 - Provide an advanced platform for C/C++ development with peripheral configuration
 - Code generation and code compilation
 - Advanced debug features for STM32 microcontrollers and microprocessors 
 - Support for ST-LINK (STMicroelectronics) and J-Link (SEGGER) debug probes
 
-### 2.2 USB Driver (STSW-LINK009)
+### 3.2 USB Driver (STSW-LINK009)
 - A digitally signed driver which allow successful USB interfaces between the device
 
-## 3.0 Procedure
-1. The microprocessor was connected with a personal computer via USB Type-A to Mini-B cable.
-2. The STM32CubeIDE and USB Driver (STSW-LINK009) softwares were downloaded and set up.
+## 4.0 Procedure
+1. The microcontroller board was connected with a personal computer via USB Type-A to Mini-B cable.
+2. The STM32CubeIDE and USB Driver (STSW-LINK009) softwares were downloaded and installed.
 3. The STM32CubeIDE software was run.
-4. Unique coding was applied in the STM32CubeIDE software to create a blinky.
-5. The GPIO Output Pin was configured within the CubeMX Tool.
+4. New project was created.
+5. The GPIO Output Pin was configured within the STM32CubeIDE Tool.
 6. The HAL_GPIO_Write was used to change the pin state and the HAL_Delay() was used to cofigure the GPIO Output Pin.
+7. Unique coding was applied in the STM32CubeIDE software to create a blinky.
+8. The application project could then be built.
+9. The ELF file could then be downloaded and programmed into the icrocontroller board.
 
-### 3.1 Source Code
+### 4.1 Source Code
  ```
  while (1)
   {
@@ -67,12 +73,12 @@ Group 3
   }
   ```
   
-## 4.0 Referred Tutorials 
-### 4.1 Tutorial Video:
-[50. Install STM32CubeIDE and LED blink program with Nucleo for Windows](https://www.youtube.com/watch?v=oAwZ0cjlmN8)
-[Getting Started with STM32 and Nucleo Part 1: Introduction to STM32CubeIDE and Blinky – Digi-Key](https://www.youtube.com/watch?v=hyZS2p1tW-g)
+## 5.0 Referred Tutorials 
+### 5.1 Tutorial Video:
+1. [50. Install STM32CubeIDE and LED blink program with Nucleo for Windows](https://www.youtube.com/watch?v=oAwZ0cjlmN8)
+2. [Getting Started with STM32 and Nucleo Part 1: Introduction to STM32CubeIDE and Blinky – Digi-Key](https://www.youtube.com/watch?v=hyZS2p1tW-g)
 
-## 5.0 References
+## 6.0 References
 [1]“NUCLEO-F446RE - STM32 Nucleo-64 development board with STM32F446RE MCU, supports Arduino and ST morpho connectivity - STMicroelectronics,” www.st.com. https://www.st.com/en/evaluation-tools/nucleo-f446re.html (accessed May 04, 2022).
 <br>
 
