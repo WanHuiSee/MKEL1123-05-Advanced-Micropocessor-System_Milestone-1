@@ -1,4 +1,5 @@
 # MKEL1123-05 Advanced Microprocessor System
+# Youtube Link : [Link to Google](https://youtu.be/YOWYuShPGjM)
 # Milestone 1: Overview
 Group 3 
 <br>  Group Member: 
@@ -53,23 +54,26 @@ Group 3
 2. The STM32CubeIDE and USB Driver (STSW-LINK009) softwares were downloaded and installed.
 3. The STM32CubeIDE software was run.
 4. New project was created.
-5. The GPIO Output Pin was configured within the STM32CubeIDE Tool.
-6. The HAL_GPIO_Write was used to change the pin state and the HAL_Delay() was used to cofigure the GPIO Output Pin.
-7. Unique coding was applied in the STM32CubeIDE software to create a blinky.
+5. The GPIO Output Pin was configured within the STM32CubeIDE Configuration Tool.
+6. The HAL_GPIO_Write was used to change the pin state and the HAL_Delay() was used to create time delay for operation.
+7. Unique coding was applied in the STM32CubeIDE software to create a blinky(can be found in main.c).
 8. The application project could then be built.
-9. The ELF file could then be downloaded and programmed into the icrocontroller board.
+9. The ELF file could then be downloaded and programmed into the microcontroller board.
 
-### 4.1 Source Code
+### 4.1 Source Code (In detail)
+- This code is to test the connection between switch and led blinking for 1Hz
  ```
- while (1)
+  while (1)
   {
-	 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);
-	 HAL_Delay(1000);
-	 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);
-	 HAL_Delay(1000);
-   /* USER CODE END WHILE */
-
-   /* USER CODE BEGIN 3 */
+    if(!HAL_GPIO_ReadPin(GPIOC,GPIO_PIN_13))
+    {
+    	HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
+    	HAL_Delay(1000);
+    }
+    else
+    {
+    	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
+    }
   }
   ```
   
