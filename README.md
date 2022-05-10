@@ -7,7 +7,7 @@
 | **Name** | **Matrics Number** |
 | :-----------: | :-----------: |
 | Kukenraj a\l K.Pugalenthy | MKE211088 |
-| Low Q'Ying | MKE211099 |
+| Low Q' Ying | MKE211099 |
 | See Wan Hui | MKE211093 |
 
 ## 1.0 Objectives
