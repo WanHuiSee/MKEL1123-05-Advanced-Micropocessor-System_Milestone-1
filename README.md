@@ -1,5 +1,5 @@
 # MKEL1123-05 Advanced Microprocessor System
-## Youtube Link : [GROUP 3 : STM FAMILIARIZATION (MILESTONE 1)](https://youtu.be/YOWYuShPGjM)
+## Youtube Link : [Group 3 : Stm32 Familiarization (Milestone 1)](https://youtu.be/YOWYuShPGjM)
 # Milestone 1: STM Familiarization
 ## Overview
 **Group 3**
